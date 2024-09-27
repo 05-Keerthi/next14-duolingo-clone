@@ -33,7 +33,7 @@ export const HeartsModal = () => {
 
      return (
          <Dialog open={isOpen} onOpenChange={close}>
-           <DialogContent className="max-w-md">
+           <DialogContent className="max-w-md bg-white">
              <DialogHeader>
                 <div className="flex items-center w-full justify-center mb-5">
                     <Image
