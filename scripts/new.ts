@@ -389,8 +389,8 @@
 //                     case '2. Quel verbe signifie "faire du sport" ?':
 //                       await db.insert(schema.challengeOptions).values([
 //                         { challengeId: challenge.id, correct: false, text: "Danser", imageSrc: "/dance.svg", audioSrc: "/Danser.mp3" },
-//                         { challengeId: challenge.id, correct: true, text: "Courir", imageSrc: "/run.svg", audioSrc: "/Courir.mp3" },
-//                         { challengeId: challenge.id, correct: false, text: "Faire du sport", imageSrc: "/sports.svg", audioSrc: "/Faire du sport.mp3" },
+//                         { challengeId: challenge.id, correct: false, text: "Courir", imageSrc: "/run.svg", audioSrc: "/Courir.mp3" },
+//                         { challengeId: challenge.id, correct: true, text: "Jouer", imageSrc: "/sports.svg", audioSrc: "/Faire du sport.mp3" },
 //                       ]);
 //                       break;
 //                     case '3. Quelle est la danse qui se danse en couple ?':
