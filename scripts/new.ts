@@ -196,8 +196,8 @@
 //                 break;
 //               case '1.What does "Au revoir" mean in English?':
 //                 await db.insert(schema.challengeOptions).values([
-//                   { challengeId: challenge.id, correct: false, text: "Hello", imageSrc: "/Hello.svg", audioSrc: "/Hello.mp3" },
-//                   { challengeId: challenge.id, correct: true, text: "Goodbye", imageSrc: "/Goodbye.svg", audioSrc: "/Goodbye.mp3" },
+//                   { challengeId: challenge.id, correct: false, text: "Hello", imageSrc: "/Hello.svg", audioSrc: "/hello.mp3" },
+//                   { challengeId: challenge.id, correct: true, text: "Goodbye", imageSrc: "/Goodbye.svg", audioSrc: "/goodbye.mp3" },
 //                   { challengeId: challenge.id, correct: false, text: "Thank you", imageSrc: "/Thank you.svg", audioSrc: "/thankyou.mp3" },
 //                 ]);
 //                 break;
