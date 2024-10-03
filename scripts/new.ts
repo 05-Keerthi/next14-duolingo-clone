@@ -458,7 +458,7 @@
 //           challenges = await db
 //             .insert(schema.challenges)
 //             .values([
-//               { lessonId: lesson.id, type: "SELECT", question: '1. What is the French word for "tango"?', order: 1 },
+//               { lessonId: lesson.id, type: "SELECT", question: '1. What is the French word for "dance"?', order: 1 },
 //               { lessonId: lesson.id, type: "SELECT", question: '2. What is the French word for "cousin"?', order: 2 },
 //               { lessonId: lesson.id, type: "SELECT", question: '3. What is the French word for "purple"?', order: 3 },
 //             ])
@@ -481,8 +481,8 @@
 //             .insert(schema.challenges)
 //             .values([
 //               { lessonId: lesson.id, type: "SELECT", question: '1. What is the French word for "orange"?', order: 1 },
-//               { lessonId: lesson.id, type: "SELECT", question: '2. What is the French verb for "to write"?', order: 2 },
-//               { lessonId: lesson.id, type: "SELECT", question: '3. What is the French word for "waltz"?', order: 3 },
+//               { lessonId: lesson.id, type: "SELECT", question: '2. What is the meaning of "écrire"?', order: 2 },
+//               { lessonId: lesson.id, type: "SELECT", question: '3. What is the meaning of "Waltz"?', order: 3 },
 //             ])
 //             .returning();
 //           break;
@@ -491,9 +491,9 @@
 //           challenges = await db
 //             .insert(schema.challenges)
 //             .values([
-//               { lessonId: lesson.id, type: "SELECT", question: '1. What is the French word for "sister"?', order: 1 },
+//               { lessonId: lesson.id, type: "SELECT", question: '1. What is the meaning of "sœur"?', order: 1 },
 //               { lessonId: lesson.id, type: "SELECT", question: '2. What is the French word for "pink"?', order: 2 },
-//               { lessonId: lesson.id, type: "SELECT", question: '3. What is the French verb for "to run"?', order: 3 },
+//               { lessonId: lesson.id, type: "SELECT", question: '3. What is the meaning of "courir"?', order: 3 },
 //             ])
 //             .returning();
 //           break;
